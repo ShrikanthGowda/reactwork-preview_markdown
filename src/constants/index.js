@@ -1,0 +1,2 @@
+const EDIT_MARKDOWN = 'EDIT_MARKDOWN';
+export default EDIT_MARKDOWN;

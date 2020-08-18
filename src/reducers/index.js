@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import markdownReducer from './markdownReducer';
+import markdownReducer from './markdownReducers';
 
 export default combineReducers({
     markdown: markdownReducer,

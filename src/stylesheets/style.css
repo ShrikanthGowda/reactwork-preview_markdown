@@ -38,6 +38,8 @@ textarea {
     background-color: grey;
 }
 
-#preview input {
-    display: "hidden";
+.centeredSubmit {
+    position: absolute;
+    top: 100%;
+    left: 0;
 }

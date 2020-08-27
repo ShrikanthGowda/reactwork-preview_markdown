@@ -1,8 +1,10 @@
 import EDIT_MARKDOWN from '../constants';
 
-const editMarkdown = message => ({
+const editMarkdown = message => (
+    {
     type : EDIT_MARKDOWN,
-    payload: message
-});
+    payload: message,
+    }
+);
 
 export default editMarkdown;

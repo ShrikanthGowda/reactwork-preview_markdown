@@ -5,11 +5,11 @@ const initialState = {
 }
 
 
-export default function(state = initialState, {type, message}) {
+export default function(state = initialState, {type, payload}) {
     switch(type) {
         case EDIT_MARKDOWN:
             return {
-                message: message,
+                message: payload,
             }
         default:
             return state;
